@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* li{
+    text-transform: capitalize;
+    font-weight: bold;
+} */
+
+h1, p{
+    color:aqua;
+}
+
+#image1{
+    width: 160px;
+    height: 160px;
+}
+
+#para1{
+    color: purple;
+    background-color: blanchedalmond;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+}
+
+a:link{
+    color: green;
+}
+
+a{
+    color: red;
+}
+
+a:hover{
+    color: orange;
+}
+
+a:visited{
+    color: black;
+}
+
+a:active{
+    color: blue;
+}
+
+.li{
+    font-weight: bold;
+}
+
+/* li:first-child{
+    font-weight: bold;
+} */
+
+/* li:last-child{
+    color:white;
+    background-color: black;
+} */
+
+/* li:nth-child(3){
+    color:orange;
+    background-color: purple;
+} */
+
+/* li:nth-child(odd){
+    color:brown;
+    background-color: blanchedalmond;
+} */
+
+/* li:nth-child(even){
+    color:palevioletred;
+    background-color: black;
+} */
+
+.btn{
+    cursor: pointer;
+    background-color:blueviolet;
+    font-size: 50px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.btn1{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.divContainer{
+    border: 3px solid red;
+}
+
+.checkingP{
+    color: rgb(0, 255, 94);
+}
+#checkingp{
+    color: rgb(255, 191, 0);
+}
+p{
+    font-size: 25px;
+    /* color: rgb(231, 132, 231); */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-style:italic;
+    line-height: 3;
+    text-transform: lowercase;
+    display: inline;
+}
+
+#there::first-letter{
+    color: rgb(144, 127, 255);
+    background-color: brown;
+}
