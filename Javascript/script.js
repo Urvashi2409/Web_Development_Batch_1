@@ -41,7 +41,8 @@
 
 // let %ythis = 45;
 // console.log(%ythis);
-
+// let _456 = 45;
+// console.log(_456);
 // data types 
 // let a = 23;
 // console.log(typeof a);
@@ -112,5 +113,98 @@
 // console.log(34-3);
 // console.log(34*3);
 // console.log(34/3);
-console.log(3%34);
+// console.log(3%34);
 // console.log(34**3);
+
+// age = 12;
+// if(age > 18){
+//     console.log("You can vote");
+// }
+// else if(age < 18){
+//     console.log("You cannot vote");
+// }
+// else{
+//     console.log("Go and apply for voter id");
+// }
+
+
+// if(2 == 3){
+//     console.log("yes");
+// }
+// if(2 == 4){
+//     console.log("no");
+// }
+// if(2 == 5){
+//     console.log("not at all");
+// }
+// if(false == true){
+//     console.log("i dont know");
+// }
+// if(true){
+//     console.log("yes kyler!");
+// }
+// else if(4 != 5){
+//     console.log("no kyler!");
+// }
+// else if(4 != 4){
+//     console.log("okay taking yout point of view");
+// }
+// else if(!4){
+//     console.log("okaaaaayyy");
+// }
+// else{
+//     console.log("default value");
+// }
+
+// if(2 == 2){
+//     console.log("yes");
+// }
+// if(3 == 4){
+//     console.log("no");
+// }
+// if(3 == 3){
+//     console.log("not at all");
+// }
+// if(4 != 9){
+//     console.log("okay taking yout point of view");
+// }
+// if(4 != 0){
+//     console.log("Dooooooooooo it");
+// }
+// else if(4 == 9){
+//     console.log("okaaaaayyy");
+// }
+// else{
+//     console.log("default value");
+// }
+
+// relational operators in javascript 
+// ==, !=, >=, <=, <, > 
+// == checks if two things are equal 
+// != checks if two things are not equal 
+// >= checks if first value is greater than or equal to second value
+// <= checks if first value is less than or equal to second value
+// > checks if first value is greater than second value
+// {/* < checks if first value is less than second value */}
+
+// assignment operators 
+// =, +=, -=, *=, /=, %= 
+
+age = 3;
+// age += 4;
+// age = age + 4;
+
+// age -= 6;
+// age = age - 6;
+
+// age *= 3;
+// age = age * 3;
+
+// age /= 5;
+// age = age / 5;
+
+age %= 7;
+// age %= 0;
+// age = age % 0;
+
+console.log(age);
